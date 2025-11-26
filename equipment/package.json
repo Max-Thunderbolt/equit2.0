@@ -1,0 +1,33 @@
+{
+  "name": "equipment-api",
+  "version": "0.1.0",
+  "description": "Express boilerplate for integrating Equipt backend with third-party storage providers such as MongoDB.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon src/index.js",
+    "start": "cross-env NODE_ENV=production node src/index.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "express",
+    "api",
+    "mongodb",
+    "boilerplate"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "axios": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^9.12.0",
+    "nodemon": "^3.1.7"
+  }
+}
